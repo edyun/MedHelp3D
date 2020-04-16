@@ -21,9 +21,9 @@ MedHelp -3D este o platforma de hosting a asset-urilor medicale 3D, pe care oric
 |													|
 |/*DATE MYSQL, Trebuie adaptate in functie de unde ai instalat baza de date*/				|
 |													|
-|$hostdb = 'localhost'; 		/*IP Server MYSQL*/							|
+|$hostdb = 'localhost'; 		/*IP Server MYSQL*/						|
 |$user = 'usersql'; 			/*User baza date*/						|
 |$pwd = 'parolasql';			/*Parola baza date*/						|
 |$database = 'numedb';			/*Baza de date la care se realizeaza conexiunea*/		|
--------------------------------------------------------------------------------------------------------	||
+-------------------------------------------------------------------------------------------------------	|
 ```
