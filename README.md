@@ -11,7 +11,7 @@ MedHelp -3D este o platforma de hosting a asset-urilor medicale 3D, pe care oric
 
 4. Configuram fisierul CONFIG.PHP astfel
 
- ------------------------------------------------------------------------------------------------------	|
+ --------------------------------------------------------------------------------------------------------------	|
 ```php													|
 $host = 'AdresaHost.com'; 	/*Hostul pe care va rula aplicatia, fara HTTP/HTTPS*/			|
 							/* Daca rulati local lasati LOCALHOST*/		|
