@@ -32,8 +32,12 @@ MedHelp -3D este o platforma de hosting a asset-urilor medicale 3D, pe care oric
 
 	Proiectul a fost realizat in totalitate folosind urmatoarele, Notepad++, Bootstrap, PHP, CSS, JavaScript, HTML5, Adobe Photoshop, Adobe AfterEffects si Sony Vegas Pro 16.
 
-Backend
-	Backend-ul a fost realizat in PHP, iar baza de date folosita a fost MySQL impreuna cu functia MySQLi din PHP.
-	Totul incepe in fisierul CONFIG.PHP, aici este setat hostul pe care va rula site-ul, datele de conectare la baza de date, si daca hostul ruleaza sau nu un certificat de securitate. Toate aceste date sunt foarte importante deoarece site-ul preia intotdeauna aceste informatii si creeaza redirectionarile necesare in functie de acestea.
-	Fisierul MYSQL.PHP realizeaza conexiunea propriu zisa la baza de date, folosind datele regasite anterior in fisierul CONFIG.PHP.
-	Fisierul INDEX.PHP este pagina principala a site-ului, aici gasim primele semne de FRONTEND, realizat in BOOTSTRAP, dar despre FRONTEND vom vorbi mai incolo. Pe partea de BACKEND, site-ul preia din tabelul `listari` cele mai recente 12 listari si le afiseaza pe pagina principala sub headerul "Cele mai recente incarcari".
+# Backend
+
+Backend-ul a fost realizat in PHP, iar baza de date folosita a fost MySQL impreuna cu functia MySQLi din PHP.
+
+Totul incepe in fisierul CONFIG.PHP, aici este setat hostul pe care va rula site-ul, datele de conectare la baza de date, si daca hostul ruleaza sau nu un certificat de securitate. Toate aceste date sunt foarte importante deoarece site-ul preia intotdeauna aceste informatii si creeaza redirectionarile necesare in functie de acestea.
+
+Fisierul MYSQL.PHP realizeaza conexiunea propriu zisa la baza de date, folosind datele regasite anterior in fisierul CONFIG.PHP.
+
+Fisierul INDEX.PHP este pagina principala a site-ului, aici gasim primele semne de FRONTEND, realizat in BOOTSTRAP, dar despre FRONTEND vom vorbi mai incolo. Pe partea de BACKEND, site-ul preia din tabelul `listari` cele mai recente 12 listari si le afiseaza pe pagina principala sub headerul "Cele mai recente incarcari".
