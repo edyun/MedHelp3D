@@ -42,5 +42,6 @@ Backend-ul a fost realizat in PHP, iar baza de date folosita a fost MySQL impreu
 
 **INDEX.PHP** = Fisierul INDEX.PHP este pagina principala a site-ului, aici gasim primele semne de FRONTEND, realizat in BOOTSTRAP, dar despre FRONTEND vom vorbi mai incolo. Pe partea de BACKEND, site-ul preia din tabelul `listari` cele mai recente 12 listari si le afiseaza pe pagina principala sub headerul "Cele mai recente incarcari".
 
-**CATEG.PHP** = Fisierul CATEG.PHP sorteaza listarile in functie de categorii, de la 1 la 6, exact ca si pe pagina CATEGORII.PHP, si le imparte pe mai multe pagini, listarile ramase goale in urma sortarii vor afisa imaginea ![Alt text](/assets/img/vaurma.jpg)
+**CATEG.PHP** = Fisierul CATEG.PHP sorteaza listarile in functie de categorii, de la 1 la 6, exact ca si pe pagina CATEGORII.PHP, si le imparte pe mai multe pagini, listarile ramase goale in urma sortarii vor afisa imaginea 
+![Alt text](/assets/img/vaurma.jpg)
 
