@@ -1,0 +1,46 @@
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 96%;               
+  background-color:gray;
+  height: 1px;
+}
+@font-face
+{
+	font-family: 'BebasNeueBold';
+	src: url('../fonts/BebasNeue-Bold.otf') format('opentype');
+}
+@font-face
+{
+	font-family: 'BebasNeueBook';
+	src: url('../fonts/BebasNeue-Book.otf') format('opentype');
+}
+.text-logo
+{
+	font-family: "BebasNeueBold";
+	background-color: #ff5960;
+	color:#ffffff;
+}
+.fontproiect
+{
+	font-family: "Roboto";
+	font-size: 38px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+.login-clean
+{
+	border-style: solid;
+	border-width: 1px
+	padding:30px;
+}
