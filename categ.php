@@ -410,13 +410,27 @@ while($row = mysqli_fetch_array($result))
 	if($pag > 1)
 	{
 		$paganterioara = $pag - 1;
-		echo '<a href=http://79.117.14.139/categ.php?id=' . $idcateg . '&page=' . $paganterioara . ' " style="font-weight:bold; color:#ff5960;">Pagina Anterioara</a>';
+		if($SSL == 0)
+		{
+			echo '<a href=http://' . $host . '/categ.php?id=' . $idcateg . '&page=' . $paganterioara . ' " style="font-weight:bold; color:#ff5960;">Pagina Anterioara</a>';
+		}
+		else
+		{
+			echo '<a href=https://' . $host . '/categ.php?id=' . $idcateg . '&page=' . $paganterioara . ' " style="font-weight:bold; color:#ff5960;">Pagina Anterioara</a>';
+		}
 	}
 	echo '  |  ';
 	if(mysqli_num_rows($resulttotal) > ($pag * 12))
 	{
 		$pagurmatoare = $pag + 1;
-		echo '<a href=http://79.117.14.139/categ.php?id=' . $idcateg . '&page=' . $pagurmatoare . ' " style="font-weight:bold; color:#ff5960;">Pagina Urmatoare</a>';
+				if($SSL == 0)
+		{
+			echo '<a href=http://' . $host . '/categ.php?id=' . $idcateg . '&page=' . $pagurmatoare . ' " style="font-weight:bold; color:#ff5960;">Pagina Urmatoare</a>';
+		}
+		else
+		{
+			echo '<a href=https://' . $host . '/categ.php?id=' . $idcateg . '&page=' . $pagurmatoare . ' " style="font-weight:bold; color:#ff5960;">Pagina Urmatoare</a>';
+		}
 	}
 	?>
 	</center>
